@@ -1,5 +1,0 @@
-library(randtests)
-data<-c(12,15,18,14,13,12)
-runs.test(data)
-runif(200,120,170)
-punif(5,min=0,max=8)
