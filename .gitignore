@@ -1,0 +1,21 @@
+# Ignore all files by default
+*
+
+# Whitelist directory traversal
+!*/
+!*/*/
+!*/*/*/
+!*/*/*/*/
+!*/*/*/*/*/
+!*/*/*/*/*/*/
+
+# Whitelist .gitignore and code formats
+!.gitignore
+!*.R
+!*.r
+!*.ipynb
+!*.Rmd
+
+# Exclude checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
