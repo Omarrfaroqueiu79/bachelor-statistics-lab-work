@@ -1,0 +1,29 @@
+---
+title: "Untitled"
+output: html_document
+date: "2023-11-17"
+---
+
+```{r setup, include=FALSE}
+setwd("F:\\Documents\\Book\\1\\3 rd year\\2nd semester\\DOE\\R Code\\CRD example")
+library(readxl)
+Book1 <- read_excel("CRD example/Book1.xlsx")
+View(Book1)
+
+data = stack(book1)
+data
+
+anova = aov(values~ind,data)
+anova
+summary(anova)
+
+lsd = LSD.test(anova,"ind")
+lsd
+
+```
+
+
+```{r}
+
+```
+
