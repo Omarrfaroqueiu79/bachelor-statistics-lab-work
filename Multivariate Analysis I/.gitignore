@@ -1,0 +1,6 @@
+# Ignore all files and directories
+*
+# Whitelist .gitignore and R scripts
+!.gitignore
+!*.R
+!*.r

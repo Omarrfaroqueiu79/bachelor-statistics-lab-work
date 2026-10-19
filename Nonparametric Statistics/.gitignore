@@ -1,0 +1,5 @@
+.Rhistory
+.RData
+*.RDataTmp*
+.ipynb_checkpoints/
+*-checkpoint.ipynb
